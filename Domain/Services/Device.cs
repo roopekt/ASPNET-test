@@ -2,11 +2,11 @@
 {
     public class Device
     {
-        public string Imei;
+        public string Imei { get; set; }
 
-        public string Model;
+        public string Model { get; set; }
 
-        public string Brand;
+        public string Brand { get; set; }
 
         public Device(string imei, string model, string brand)
         {
